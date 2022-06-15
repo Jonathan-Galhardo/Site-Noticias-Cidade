@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+body.home #menusuperior a#home,
+body.brasil #menusuperior a#brasil,
+body.internacional #menusuperior a#internacional,
+body.economia #menusuperior a#economia,
+body.saude #menusuperior a#saude,
+body.ciencia #menusuperior a#ciencia,
+body.fotos #menusuperior a#fotos {
+	color: white;
+	background: #de003e;     
+	cursor: text;
+
+}
+
+#container{
+	width: 750px;
+	margin: 0 auto; /*centralizar*/
+	
+}
+
+#topo{
+	height: 150px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+
+#topo ul{
+	background: #b10333;
+	margin-top: 30px;
+	float: left;
+}
+
+#topo ul li{
+	float: left;
+}
+
+#topo ul a{
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 1.8em;
+	text-decoration: none;
+	color: white;
+	background: url(../imagens/divisor.png) repeat-y; left center;
+}
+
+#topo ul .primeiro a {
+	background: none;
+}
+
+#topo ul a:hover {
+	color: #69001d;
+}
+.logo{
+	width: 152px;
+	height: 66px;
+	background: url(../imagens/logo.png) no-repeat center;
+	text-indent: -3000px;
+}
+
