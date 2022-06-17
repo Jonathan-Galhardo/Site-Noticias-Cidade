@@ -73,3 +73,200 @@ ul{
 	text-indent: -3000px;
 }
 
+/*Configuração layout 3 colunas*/ 
+#conteudo{
+	margin-top: 70px;
+	background: #DCDCDC;
+
+}
+
+#trescolunas #primario{
+	width: 270px;
+	float: left;
+	margin: 0 15px 20px 195px;/*15*/
+
+}
+
+#duascolunas #primario{
+	width: 555px;
+	float: left;
+	margin: 0 0px 20px 195px;
+
+}
+
+#umacoluna #primario{
+	width: 555px;
+	float: left;
+	margin: 0 0px 20px 0px;
+e;
+}
+
+
+#secundario{
+	width: 270px;
+	float: left;
+}
+
+#lateral{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+
+}
+
+/*aba Brasil*/ 
+#principal{
+	width: 550px;
+	float: right;
+	margin: 0 0px 20px 0px;
+	background: blue;
+}
+
+#barralateral{
+	width: 180px;
+	float: left;
+	background: orange;
+	margin: 0 0 20px 0px;
+}
+
+#principalfotos{
+	width: 750px;
+	float: left;
+	background: blue;
+	margin: 0 0px 20px 0;
+
+}
+
+/*rodape*/ 
+#containerrodape{
+	background: #294c71;
+	padding: 10px;
+}
+
+.caixa{
+	background: #f3f3f3 url(../imagens/fundo-caixa.png);
+	margin: 10px 0;
+	padding: 5px;
+}
+
+h2{
+	font-size: 1em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px 5px 5px 10px;
+}
+
+.caixa-conteudo{
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+/*Menu lateral*/ 
+
+#lateral ul a{
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+	color: #a1a1a1;
+	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+	padding-left: 25px;
+
+}	
+
+label{
+	display: block;
+	cursor: pointer;
+	
+}
+
+input{
+	font-size: 0.9em;
+	background-color: #fff;
+	margin-top: 5px;
+	width: 130px;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}	
+
+img.imagem-principal{
+	width: 98%;
+	border: 3px solid #696969;
+}
+
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+	margin-bottom: 5px;
+}
+
+.destaque h3{
+	background: #b10333;
+	color: #fff;
+}
+
+.entrevista h3{
+	background: #b10333;
+	color: #daa520;
+}
+
+/*lista de noticias MUNDO*/
+#lista-noticias li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+}
+
+#lista-noticias li a img{
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a h3{
+	font-size: 1em;
+	background: #daa520;
+	padding: 0;
+
+}
+
+#lista-noticias li a p{
+	font-size: 0.8em;
+}
+
+#lista-noticias li a{
+	text-decoration: none;
+}
+
+#lista-noticias li a{
+	text-decoration: none;/*remover o underline*/
+	font-size:0.8em;
+
+}
+
+#lista-noticias li:hover{
+	background: #f5deb3;
+	cursor: pointer;
+	
+}
+
+#rodape{
+	width: 750px;
+	margin: 0 auto;
+	color: whitesmoke;
+
+}
+
