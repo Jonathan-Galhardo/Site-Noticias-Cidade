@@ -83,7 +83,7 @@ ul{
 #trescolunas #primario{
 	width: 270px;
 	float: left;
-	margin: 0 15px 20px 195px;/*15*/
+	margin: 0 15px 20px 195px;
 
 }
 
@@ -95,10 +95,10 @@ ul{
 }
 
 #umacoluna #primario{
-	width: 555px;
+	width: 720px;
 	float: left;
-	margin: 0 0px 20px 0px;
-e;
+	margin: 0;
+	
 }
 
 
